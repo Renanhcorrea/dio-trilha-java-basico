@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
          
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner
+         = new Scanner(System.in);
 
         System.out.println("Por favor, digite o numero da Conta.");
         int numero = scanner.nextInt();
