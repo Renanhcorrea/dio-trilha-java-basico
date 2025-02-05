@@ -26,8 +26,8 @@ public class AboutMe {
 
         // Results
         System.out.println("Hi, my name is " + name.toUpperCase() + " " + surname.toUpperCase());
-        System.out.println("I am " + age + "years old.");
-        System.out.println("I am "+ height + "height");
+        System.out.println("I am " + age + " years old.");
+        System.out.println("I am "+ height + " height");
         scanner.close();
 
         } catch (java.util.InputMismatchException e) {
